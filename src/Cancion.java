@@ -9,4 +9,6 @@ public class Cancion {
         this.Artista=Artista;
         this.Genero=Genero;
     }
+
+    
 }

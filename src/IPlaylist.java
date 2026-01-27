@@ -1,5 +1,5 @@
 public interface IPlaylist {
-   void agergarCancion(inster Cancion);
+   void agergarCancion(Cancion cancionc);
    void eliminarCancion(String titulo);
    Cancion reproducirSiguiente();
    void vaciarLista();
