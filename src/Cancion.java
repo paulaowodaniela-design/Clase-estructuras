@@ -21,13 +21,13 @@ public class Cancion {
     }
     // aqui los setters para modificarlos 
     public void setNombreC(String NombreC){
-        this.NombreC=NombreC
+        this.NombreC=NombreC;
     }
     public void setArtista(String Artista){
-        this.Artista=Artista
+        this.Artista=Artista;
     }
     public void setGenero(String Genero){
-        this.Genero=Genero
+        this.Genero=Genero;
     }
     
 }
