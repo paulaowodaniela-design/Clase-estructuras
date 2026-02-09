@@ -2,6 +2,7 @@
 al usar la synchronized siendo mas lento pero mas seguro, ya que un solo hilo
  puede modificar el vector
 */
+import java.util.ArrayList;
 import java.util.Vector;
 
     public class Banco{
@@ -24,7 +25,7 @@ import java.util.Vector;
             }
             long finVector = System.currentTimeMillis();
             System.out.println("tiempo vector " +(finVector - inicioVector)+ "ms");
-        }
+        
         //Arraylist
         ArrayList<Integer> arrayList = new ArrayList<>();
         long inicioArray = System.currentTimeMillis();
@@ -36,5 +37,5 @@ import java.util.Vector;
         long finArray = System.currentTimeMillis();
         System.out.println("tiempo ArrayList: " + (finArray - inicioArray) + " ms");
 
-
-     }
+    }
+}
