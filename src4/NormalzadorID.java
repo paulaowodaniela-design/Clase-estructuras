@@ -4,10 +4,11 @@ public class NormalzadorID {
     public static void main (String[] args){
         String idSucio = " User_123 ";
         String idLimpio = idSucio.trim().toUpperCase().substring(0, 4);
-        System.identityHashCode(idSucio);
-        System.identityHashCode(idLimpio);
-        StringBuilder cambiante = new StringBuilder(idLImpio);
+        System.out.println(System.identityHashCode(idSucio));
+        System.out.println(System.identityHashCode(idLimpio));
+        StringBuilder cambiante = new StringBuilder(idLimpio);
         cambiante.reverse();
-        string idTerminado = cambiante.trostring(); 
+        String idTerminado = cambiante.toString(); 
+        System.out.println(idTerminado);
     }
 }
