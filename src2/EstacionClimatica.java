@@ -5,7 +5,7 @@ public class EstacionClimatica {
        for (int i = 0; i < temperaturas.length; i++){
    temperaturas[i]= Math.random() *40;
 }
-System.out.println("Temperatura del medio dia" + temperaturas[12]);
+System.out.println("Temperatura del medio dia " + temperaturas[12]);
 try{ temperaturas[24] = 10;
 } catch (ArrayIndexOutOfBoundsException e) {
     System.out.println("La hora ingresada no existe");

@@ -20,7 +20,7 @@ import java.util.Vector;
         public static void compararRendimiento(){
             Vector<Integer> vector = new Vector<>();
             long inicioVector = System.currentTimeMillis();
-            for (int i = 0; i < 1_000_000; i++){
+            for (int i = 0; i < 1000000; i++){
                 vector.add(i);
             }
             long finVector = System.currentTimeMillis();
@@ -30,7 +30,7 @@ import java.util.Vector;
         ArrayList<Integer> arrayList = new ArrayList<>();
         long inicioArray = System.currentTimeMillis();
 
-        for (int i = 0; i < 1_000_000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             arrayList.add(i);
         }
 
