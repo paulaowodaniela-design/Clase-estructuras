@@ -23,3 +23,10 @@ public class colaSoporte {
     }
     
 }
+/*
+Diferencia entre .poll() y .remove()
+poll lo que hace es extraer el primer elemento de la fila y mostralo, si la fila llega
+a estar vacia no saca error si no un null
+remove tambien extrae y muestra el primer elemento de la fila, pero si la cola esta vacia
+muestra una exception
+*/
