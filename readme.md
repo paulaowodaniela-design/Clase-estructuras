@@ -5,6 +5,18 @@ Estudiante: Paula Prada
 Asignatura: Estructuras de Datos – IS0288
 Programa: Ingeniería de Sistemas
 
+## 📑 Índice de Actividades
+
+1. [Actividad 1 – TAD Playlist](./Actividad1_TAD)
+2. [Actividad 2 – Arreglos Estáticos](./Actividad2_Arreglos)
+3. [Actividad 3 – Vector](./Actividad3_Vector)
+4. [Actividad 4 – Strings](./Actividad4_Strings)
+5. [Actividad 5 – Matrices](./Actividad5_Matrices)
+6. [Actividad 6 – ArrayList](./Actividad6_ArrayList)
+7. [Actividad 7 – Stack](./Actividad7_Pila)
+8. [Actividad 8 – Queue](./Actividad8_Queue)
+9. [Actividad 9 – HashMap](./Actividad9_HashMap)
+
 Actividad 1 – Diseño Conceptual (TAD Playlist)
 En esta actividad se definió un Tipo Abstracto de Dato utilizando una interface en Java.
 El objetivo fue comprender la abstracción y la separación entre especificación e implementación, enfocándose únicamente en las firmas de los métodos y documentación Javadoc.
@@ -59,3 +71,6 @@ Se desarrolló un sistema de inventario utilizando HashMap para asociar claves y
 
 Reflexión técnica:
 Se comprendió la estructura Key-Value, la unicidad de las claves y la eficiencia de búsqueda cercana a O(1), sin necesidad de recorrer todos los elementos
+
+Conclusión General
+Esta colección de actividades permitió comprender la diferencia entre estructuras estáticas y dinámicas, analizar eficiencia y rendimiento, y aplicar conceptos fundamentales como abstracción, inmutabilidad, sincronización y complejidad algorítmica en Java.
